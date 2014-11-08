@@ -1,0 +1,16 @@
+@import 'base.scss';
+@import 'header.scss';
+@import 'content.scss';
+@import 'blogFront.scss';
+@import 'singlePost.scss';
+@import 'portfolioFront.scss';
+@import 'portfolioFull.scss';
+@import 'technologies.scss';
+@import 'about.scss';
+@import 'footer.scss';
+
+.container {
+	width: 940px;
+	max-width: 100%;
+	margin: 0 auto;
+}

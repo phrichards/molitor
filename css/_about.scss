@@ -1,0 +1,44 @@
+.about {
+	background-color: $beige;
+	color: $blue;
+	padding-bottom: 150px;
+}
+
+.about h2 {
+	padding-top: 150px;
+}
+
+.about h5 {
+	text-align: center;
+}
+
+.about p {
+	margin-bottom: 0;
+}
+
+.about a {
+	color: #000;
+}
+
+.about a:hover {
+	color: $gold;
+}
+
+// .about-icon {
+// 	float: left;
+// 	width: 33%;
+// 	padding-bottom: 150px;	
+// 	padding-top: 50px;
+// 	text-align: center;
+// }
+
+
+// .about-icon p {
+// 	font-size: 1em;
+// }
+
+// svg {
+// 	height: 175px;
+// 	width: 175px;
+// 	fill: $blue;
+// }

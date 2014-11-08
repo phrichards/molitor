@@ -1,0 +1,53 @@
+.portfolio-front {
+	background-color: $blue;
+	position: relative;
+}
+
+.featured section {
+	float: left;
+	width: 33%;
+}
+
+.featured h3 {
+	text-align: center;
+}
+
+.featured .description {
+	text-align: center;
+}
+
+.images {
+	margin-left: 9%;
+}
+
+a.featuredLink {
+	text-decoration: none;
+	color: $gold;
+}
+
+a.featuredLink:hover {
+	color: #FFF;
+}
+
+.terms {
+	margin-top: 5%;
+	text-align: center;
+	padding-bottom: 250px;
+	text-transform: uppercase;
+	font-size: 0.75em;
+}
+
+.terms a:hover {
+	color: $gold;
+}
+
+button {
+	@include button($blue);
+	position: absolute;
+	bottom: 100px;
+	left: 40%;
+}
+
+button:hover {
+	color: $gold;
+}

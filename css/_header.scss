@@ -1,0 +1,51 @@
+header h1 {
+	margin-top: 0;
+}
+
+header nav {
+	width: 100%;
+	padding: 20px 20px 27px 10px;
+	position: relative;
+}
+
+header nav ul {
+	margin-top: 0;
+}
+
+header nav li {
+	text-transform: uppercase;
+	list-style-type: none;
+	float: right;
+	margin-left: 2%;
+}
+
+header a {
+	text-decoration: none;
+	margin-top: 0;
+	font-size: 19px;
+}
+
+header a:hover {
+	color: $blue;
+}
+
+header img {
+	margin-left: 1%;
+	margin-top: 145px;
+	margin-bottom: 145px;
+}
+
+header nav img {
+	margin: 0;
+	position: absolute;
+	top: 7%;
+	left: 1%;
+}
+
+nav.scroll-to-fixed-fixed {
+	padding: 21px 20px 21px 10px;
+}
+
+a.lettermark {
+	display: none;
+}

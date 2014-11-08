@@ -1,0 +1,22 @@
+.content {
+	width: 100%;
+}
+
+.content-front {
+	background: $blue;
+	color: #FFF;
+}
+
+.content-front h2 {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 150px;
+}
+
+.front-button {
+	text-decoration: none;
+}
+
+.front-button:hover {
+	color: $gold;
+}

@@ -1,0 +1,22 @@
+.blogFront {
+	background-color: $beige;
+	width: 100%;
+	color: #000;
+}
+
+.blogFront a {
+	color: #000;
+}
+
+.blogFront a:hover {
+	color: $gold;
+}
+
+h2.entry-title {
+	margin-top: 0;
+	padding-top: 40px;
+}
+
+.blog-title-link {
+	text-decoration: none;
+}

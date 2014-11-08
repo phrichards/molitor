@@ -1,0 +1,38 @@
+footer {
+	background-color: $blue;
+	padding-bottom: 150px;
+}
+
+footer h2 {
+	margin-top: 0;
+	padding-top: 150px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer svg {
+	height: 50px;
+	width: 50px;
+	stroke: #FFF;
+	fill: #FFF;
+	// float: left;
+	margin-right: 10%;
+}
+
+.svg-email {
+	margin-left: 8%;
+}
+
+svg:hover {
+	stroke: $gold;
+	fill: $gold;
+}
+
+.comments-footer {
+	background: $beige;
+	padding-bottom: 0;
+}

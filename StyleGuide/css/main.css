@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700|Montserrat:400,700);
+/* line 1, main.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+/* line 1, main.scss */
+audio, canvas, video { display: inline-block; }
+
+/* line 1, main.scss */
+audio:not([controls]) { display: none; height: 0; }
+
+/* line 1, main.scss */
+[hidden] { display: none; }
+
+/* line 1, main.scss */
+html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+/* line 1, main.scss */
+a:focus { outline: thin dotted; }
+
+/* line 1, main.scss */
+a:active, a:hover { outline: 0; }
+
+/* line 1, main.scss */
+h1 { font-size: 2em; }
+
+/* line 1, main.scss */
+abbr[title] { border-bottom: 1px dotted; }
+
+/* line 1, main.scss */
+b, strong { font-weight: 700; }
+
+/* line 1, main.scss */
+dfn { font-style: italic; }
+
+/* line 1, main.scss */
+mark { background: #ff0; color: #000; }
+
+/* line 1, main.scss */
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+
+/* line 1, main.scss */
+pre { white-space: pre-wrap; word-wrap: break-word; }
+
+/* line 1, main.scss */
+q { quotes: \201C \201D \2018 \2019; }
+
+/* line 1, main.scss */
+small { font-size: 80%; }
+
+/* line 1, main.scss */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+/* line 1, main.scss */
+sup { top: -.5em; }
+
+/* line 1, main.scss */
+sub { bottom: -.25em; }
+
+/* line 1, main.scss */
+img { border: 0; }
+
+/* line 1, main.scss */
+svg:not(:root) { overflow: hidden; }
+
+/* line 1, main.scss */
+fieldset { border: 1px solid silver; margin: 0 2px; padding: .35em .625em .75em; }
+
+/* line 1, main.scss */
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; }
+
+/* line 1, main.scss */
+button, input { line-height: normal; }
+
+/* line 1, main.scss */
+button, html input[type=button], input[type=reset], input[type=submit] { -webkit-appearance: button; cursor: pointer; }
+
+/* line 2, main.scss */
+button[disabled], input[disabled] { cursor: default; }
+
+/* line 2, main.scss */
+input[type=checkbox], input[type=radio] { box-sizing: border-box; padding: 0; }
+
+/* line 2, main.scss */
+input[type=search] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+/* line 2, main.scss */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/* line 2, main.scss */
+textarea { overflow: auto; vertical-align: top; }
+
+/* line 2, main.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 2, main.scss */
+body, figure { margin: 0; }
+
+/* line 2, main.scss */
+legend, button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* line 4, main.scss */
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+/* line 6, main.scss */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* line 24, main.scss */
+body { color: #333; font-family: "Alegreya Sans", sans-serif; font-size: 22px; font-weight: 400; }
+
+/* line 31, main.scss */
+img.logo { width: 25%; padding: 2%; }
+
+/* line 38, main.scss */
+h1, h2, h3, h4, h5 { font-family: "Montserrat", sans-serif; margin: 30.8px 0; text-transform: uppercase; letter-spacing: 5px; font-weight: 700; }
+
+/* line 46, main.scss */
+p { line-height: 35.2px; margin: 30.8px 0; font-size: 13.2px; }
+
+/* line 52, main.scss */
+small { font-size: 11px; }
+
+/* line 56, main.scss */
+strong { font-weight: 700; }
+
+/* line 60, main.scss */
+a { color: #39AC6B; }
+/* line 62, main.scss */
+a:hover { color: black; }
+
+/* line 67, main.scss */
+header nav { width: 100%; padding: 5px 10px; background: #3A3736; color: #efefef; }
+
+/* line 75, main.scss */
+form .form-element { margin: 15px 0; }
+/* line 77, main.scss */
+form .form-element label { display: block; margin-bottom: 8.8px; font-weight: 400; font-size: 17.6px; }
+/* line 83, main.scss */
+form .form-element input { width: 100%; padding: 10px; }
+/* line 87, main.scss */
+form .form-element .radio { width: 100%; }
+/* line 89, main.scss */
+form .form-element .radio label { display: inline-block; }
+/* line 91, main.scss */
+form .form-element .radio label input[type="radio"] { width: auto; }
+
+/* line 114, main.scss */
+button.button-default { padding: 10px 25px; background: #39AC6B; border: 0; border-radius: 8px; color: #fff; font-size: 17.6px; font-family: 'Oswald', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: 2px; }
+/* line 109, main.scss */
+button.button-default:hover { background: #2c8653; }
+
+/* line 118, main.scss */
+button.button-success { padding: 10px 25px; background: #F36C36; border: 0; border-radius: 8px; color: #fff; font-size: 17.6px; font-family: 'Oswald', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: 2px; }
+/* line 109, main.scss */
+button.button-success:hover { background: #e84c0e; }
+
+/* line 122, main.scss */
+button.button-error { padding: 10px 25px; background: #C1272D; border: 0; border-radius: 8px; color: #fff; font-size: 17.6px; font-family: 'Oswald', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: 2px; }
+/* line 109, main.scss */
+button.button-error:hover { background: #971e23; }
+
+/* line 126, main.scss */
+.third { width: 33.33%; padding: 2%; float: left; }
+
+/* line 132, main.scss */
+.half { width: 50%; padding: 2%; float: left; }
+
+@keyframes fadein { from { opacity: 0; }
+  to { opacity: 1; } }
+
+/*# sourceMappingURL=main.css.map */
