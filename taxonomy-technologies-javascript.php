@@ -1,3 +1,5 @@
+<!-- this is broken -->
+
 <?php get_header('home'); ?>
 
 <div class="main">
@@ -24,15 +26,42 @@
     	 * we can run the loop properly, in full.
     	 */
     	rewind_posts();
-
-    	/* Run the loop for the archives page to output the posts.
-    	 * If you want to overload this in a child theme then include a file
-    	 * called loop-archives.php and that will be used instead.
-    	 */
-      get_template_part( 'loop', 'archive' );
       ?>
 
-    </div><!--/container-->
+    <!-- 	/* Run the loop for the archives page to output the posts.
+    	 * If you want to overload this in a child theme then include a file
+    	 * called loop-archives.php and that will be used instead.
+    	 */ -->
+      
+      <div class="technology-page">
+      <?php
+        $args = array(
+            'posts_per_page' => -1,
+            'post_type' => 'portfolio',
+            'order' => 'ASC',
+            'tax_query' => array(
+                array(
+                  'taxonomy' => 'technologies',
+                  'terms' => 'javascript',
+                ),
+            ),
+          );
+        $onePageQuery = new WP_Query($args); // close wp query 
+      ?> 
+
+      <?php if ( $onePageQuery->have_posts() ) : ?>
+
+        <?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
+          
+          
+        <?php endwhile; ?>
+
+        <?php wp_reset_postdata(); ?>
+
+      <?php endif; ?>
+      
+
+    </div><!--/technology-page-->
 
     
 
