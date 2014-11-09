@@ -42,3 +42,33 @@
 // 	width: 175px;
 // 	fill: $blue;
 // }
+
+.skills li {
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 1.8em;
+	// float: left;
+}
+
+.skills h2 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.skills h3 {
+	text-align: center;
+}
+
+.skill {
+	float: left;
+	width: 20%;
+}
+
+.skill:first-child {
+	margin-left: 8%;
+}
+
+.skill ul {
+	text-align: center;
+	padding-left: 0;
+}

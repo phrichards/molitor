@@ -322,6 +322,24 @@ a.portfolio-link:hover { color: #FFF; }
 /* line 23, css/_about.scss */
 .about a:hover { color: #C3996B; }
 
+/* line 46, css/_about.scss */
+.skills li { list-style-type: none; font-size: 16px; line-height: 1.8em; }
+
+/* line 53, css/_about.scss */
+.skills h2 { text-align: center; padding-top: 50px; }
+
+/* line 58, css/_about.scss */
+.skills h3 { text-align: center; }
+
+/* line 62, css/_about.scss */
+.skill { float: left; width: 20%; }
+
+/* line 67, css/_about.scss */
+.skill:first-child { margin-left: 8%; }
+
+/* line 71, css/_about.scss */
+.skill ul { text-align: center; padding-left: 0; }
+
 /* line 1, css/_footer.scss */
 footer { background-color: #2D3246; padding-bottom: 150px; }
 

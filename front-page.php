@@ -56,11 +56,48 @@
 				<h2>About Me</h2>
 				<h5>Librarian turned front-end web developer</h5>
 
-				<p>I graduated from the University of Toronto in 2010 with a Master of Information Studies, specializing in librarianship. I became a librarian to pursue my passion for helping people find information and answer questions, but after working for some time I wanted a chance to combine this love of finding and presenting information with a chance to be more creative. With a job ending and a HackerYou cohort beginning, it seemed like a chance to pursue another longtime passion, coding.</p>
-
-				<p>I had a fantastic time at HackerYou, and developed strong knowledge of HTML, CSS, Sass, jQuery, and Git, along with a love of Javascript and APIs. Now that my time at HackerYou is over, I'd like to continue coding at a small agency or company where I can both teach and learn from other developers. If you have an opening on your team, please check out my resume and <a href="#footer">get in touch</a>.</p>
-
+				<p>I graduated from the University of Toronto in 2010 with a Master of Information Studies, specializing in librarianship. I became a librarian to pursue my passion for helping people find information and answer questions, but after working for some time I wanted a chance to combine this love of finding and presenting information with a chance to be more creative. With a job ending and a HackerYou cohort beginning, it seemed like a chance to pursue another longtime passion, coding, by attending the full-time front end bootcamp at <a href="http://hackeryou.com/">HackerYou</a>. Now that my time at HackerYou is over, I'd like to continue coding at a small agency or company where I can both teach and learn from other developers. If you have an opening on your team, please check out my <a href="http://phrichards.ca/resume">resume</a> and <a href="#footer">get in touch</a>.</p>
 			</div><!-- /.container -->
+
+				<div class="skills clearfix">
+					<h2>My Skills</h2>
+					<ul>
+						<li class="skill"><h3>HTML/CSS</h3>
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>Sass</li>
+							</ul>
+						</li>
+						
+						<li class="skill"><h3>Javascript</h3>
+							<ul>
+								<li>Javascript</li>
+								<li>jQuery</li>
+								<li>Ajax</li>
+								<li>APIs</li>
+							</ul>
+						</li>
+						
+						<li class="skill"><h3>Tools</h3>
+							<ul>
+								<li>Git and Github</li>
+								<li>Grunt</li>
+								<li>Sublime Text</li>		
+							</ul>
+						</li>
+						
+						<li class="skill"><h3>Also</h3>
+							<ul>
+								<li>Responsive Design</li>
+								<li>Pair Coding</li>
+								<li>Wordpress</li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div><!-- /.skills -->
+
 		</div><!-- /.about -->
 	</div> <!--/.content -->
 
