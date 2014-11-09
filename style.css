@@ -183,14 +183,22 @@ header a:hover { color: #2D3246; }
 
 /* line 32, css/_header.scss */
 header img { margin-left: 1%; margin-top: 145px; margin-bottom: 145px; }
+@media (max-width: 940px) { /* line 32, css/_header.scss */
+  header img { margin-left: 5%; } }
+@media (max-width: 768px) { /* line 32, css/_header.scss */
+  header img { margin-top: 75px; margin-bottom: 65px; margin-left: 11%; } }
+@media (max-width: 640px) { /* line 32, css/_header.scss */
+  header img { margin-top: 55px; margin-bottom: 45px; } }
+@media (max-width: 480px) { /* line 32, css/_header.scss */
+  header img { margin-left: 30%; margin-top: 45px; margin-bottom: 25px; } }
 
-/* line 38, css/_header.scss */
+/* line 60, css/_header.scss */
 header nav img { margin: 0; position: absolute; top: 7%; left: 1%; }
 
-/* line 45, css/_header.scss */
+/* line 67, css/_header.scss */
 nav.scroll-to-fixed-fixed { padding: 21px 20px 21px 10px; }
 
-/* line 49, css/_header.scss */
+/* line 71, css/_header.scss */
 a.lettermark { display: none; }
 
 /* line 1, css/_content.scss */
@@ -208,95 +216,128 @@ a.lettermark { display: none; }
 /* line 20, css/_content.scss */
 .front-button:hover { color: #C3996B; }
 
-/* line 1, css/_blogFront.scss */
+/* line 3, css/_blogFront.scss */
 .blogFront { background-color: #E6E3DA; width: 100%; color: #000; }
+@media (max-width: 960px) { /* line 3, css/_blogFront.scss */
+  .blogFront { padding-left: 20px; padding-right: 20px; } }
 
-/* line 7, css/_blogFront.scss */
+/* line 14, css/_blogFront.scss */
 .blogFront a { color: #000; }
 
-/* line 11, css/_blogFront.scss */
+/* line 18, css/_blogFront.scss */
 .blogFront a:hover { color: #C3996B; }
 
-/* line 15, css/_blogFront.scss */
+/* line 22, css/_blogFront.scss */
 h2.entry-title { margin-top: 0; padding-top: 40px; }
 
-/* line 20, css/_blogFront.scss */
+/* line 27, css/_blogFront.scss */
 .blog-title-link { text-decoration: none; }
 
 /* line 1, css/_singlePost.scss */
 .singlePost { background: #E6E3DA; width: 100%; color: #2D3246; padding-bottom: 20px; }
-
-/* line 8, css/_singlePost.scss */
-.singlePost h1 { margin-top: 0; padding-top: 80px; }
+@media (max-width: 960px) { /* line 1, css/_singlePost.scss */
+  .singlePost { padding-right: 20px; padding-left: 20px; } }
 
 /* line 13, css/_singlePost.scss */
+.singlePost h1 { margin-top: 0; padding-top: 80px; }
+
+/* line 18, css/_singlePost.scss */
 .singlePost a { color: #2D3246; }
 
-/* line 17, css/_singlePost.scss */
+/* line 22, css/_singlePost.scss */
 .singlePost a:hover { color: #C3996B; }
 
-/* line 21, css/_singlePost.scss */
+/* line 26, css/_singlePost.scss */
 .singlePost .entry-meta, .singlePost .entry-utility { font-size: 15px; text-transform: uppercase; }
 
-/* line 27, css/_singlePost.scss */
+/* line 32, css/_singlePost.scss */
 .nav-previous, .nav-next { margin-bottom: 0; }
 
-/* line 1, css/_portfolioFront.scss */
+/* line 3, css/_portfolioFront.scss */
 .portfolio-front { background-color: #2D3246; position: relative; }
+@media (max-width: 960px) { /* line 3, css/_portfolioFront.scss */
+  .portfolio-front { padding-bottom: 250px; } }
+@media (max-width: 480px) { /* line 3, css/_portfolioFront.scss */
+  .portfolio-front { padding-bottom: 175px; } }
 
-/* line 6, css/_portfolioFront.scss */
+/* line 16, css/_portfolioFront.scss */
 .featured section { float: left; width: 33%; }
+@media (max-width: 960px) { /* line 16, css/_portfolioFront.scss */
+  .featured section { width: 50%; } }
+@media (max-width: 768px) { /* line 16, css/_portfolioFront.scss */
+  .featured section { width: 100%; } }
 
-/* line 11, css/_portfolioFront.scss */
+/* line 29, css/_portfolioFront.scss */
 .featured h3 { text-align: center; }
 
-/* line 15, css/_portfolioFront.scss */
+/* line 33, css/_portfolioFront.scss */
 .featured .description { text-align: center; }
+@media (max-width: 480px) { /* line 33, css/_portfolioFront.scss */
+  .featured .description { padding-left: 20px; padding-right: 20px; } }
 
-/* line 19, css/_portfolioFront.scss */
+/* line 42, css/_portfolioFront.scss */
 .images { margin-left: 9%; }
 
-/* line 23, css/_portfolioFront.scss */
+/* line 46, css/_portfolioFront.scss */
 a.featuredLink { text-decoration: none; color: #C3996B; }
 
-/* line 28, css/_portfolioFront.scss */
+/* line 51, css/_portfolioFront.scss */
 a.featuredLink:hover { color: #FFF; }
 
-/* line 32, css/_portfolioFront.scss */
+/* line 55, css/_portfolioFront.scss */
 .terms { margin-top: 5%; text-align: center; padding-bottom: 250px; text-transform: uppercase; font-size: 0.75em; }
+@media (max-width: 960px) { /* line 55, css/_portfolioFront.scss */
+  .terms { padding-bottom: 50px; } }
 
-/* line 40, css/_portfolioFront.scss */
+/* line 67, css/_portfolioFront.scss */
 .terms a:hover { color: #C3996B; }
 
-/* line 44, css/_portfolioFront.scss */
+/* line 71, css/_portfolioFront.scss */
 button { padding: 20px 75px; background: #2D3246; border: 1px solid #C3996B; border-radius: 8px; color: #fff; font-size: 17.6px; font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: 2px; position: absolute; bottom: 100px; left: 40%; }
+@media (max-width: 768px) { /* line 71, css/_portfolioFront.scss */
+  button { left: 32%; } }
+@media (max-width: 640px) { /* line 71, css/_portfolioFront.scss */
+  button { left: 29%; } }
+@media (max-width: 480px) { /* line 71, css/_portfolioFront.scss */
+  button { left: 22%; } }
 
-/* line 51, css/_portfolioFront.scss */
+/* line 90, css/_portfolioFront.scss */
 button:hover { color: #C3996B; }
 
-/* line 1, css/_portfolioFull.scss */
+/* line 3, css/_portfolioFull.scss */
 .portfolio-full { width: 100%; background: #2D3246; }
 
-/* line 6, css/_portfolioFull.scss */
+/* line 8, css/_portfolioFull.scss */
 .portfolio-full h2 { margin-top: 0; padding-top: 150px; text-align: center; }
 
-/* line 12, css/_portfolioFull.scss */
+/* line 14, css/_portfolioFull.scss */
 .portfolio-item { width: 33%; float: left; }
+@media (max-width: 960px) { /* line 14, css/_portfolioFull.scss */
+  .portfolio-item { width: 50%; } }
+@media (max-width: 768px) { /* line 14, css/_portfolioFull.scss */
+  .portfolio-item { width: 100%; } }
 
-/* line 17, css/_portfolioFull.scss */
+/* line 27, css/_portfolioFull.scss */
 h3.portfolio-item-title { text-align: center; }
 
-/* line 21, css/_portfolioFull.scss */
+/* line 31, css/_portfolioFull.scss */
 a.portfolio-link { text-decoration: none; color: #C3996B; }
 
-/* line 26, css/_portfolioFull.scss */
+/* line 36, css/_portfolioFull.scss */
 a.portfolio-link:hover { color: #FFF; }
 
-/* line 30, css/_portfolioFull.scss */
+/* line 40, css/_portfolioFull.scss */
 .portfolio-description { text-align: center; }
 
-/* line 34, css/_portfolioFull.scss */
+/* line 44, css/_portfolioFull.scss */
 .portfolio-terms { padding-bottom: 70px; text-align: center; font-size: 0.75em; text-transform: uppercase; }
+
+@media (max-width: 768px) { /* line 51, css/_portfolioFull.scss */
+  .images { margin-left: 24%; } }
+@media (max-width: 640px) { /* line 51, css/_portfolioFull.scss */
+  .images { margin-left: 19%; } }
+@media (max-width: 480px) { /* line 51, css/_portfolioFull.scss */
+  .images { margin-left: 10%; } }
 
 /* line 1, css/_technologies.scss */
 .technology-term { background: #E6E3DA; color: #2D3246; }
@@ -304,40 +345,55 @@ a.portfolio-link:hover { color: #FFF; }
 /* line 6, css/_technologies.scss */
 .technology-term h1 { margin-top: 0; }
 
-/* line 1, css/_about.scss */
+/* line 3, css/_about.scss */
 .about { background-color: #E6E3DA; color: #2D3246; padding-bottom: 150px; }
 
-/* line 7, css/_about.scss */
+/* line 9, css/_about.scss */
 .about h2 { padding-top: 150px; }
 
-/* line 11, css/_about.scss */
+/* line 13, css/_about.scss */
 .about h5 { text-align: center; }
 
-/* line 15, css/_about.scss */
+/* line 17, css/_about.scss */
 .about p { margin-bottom: 0; }
+@media (max-width: 940px) { /* line 17, css/_about.scss */
+  .about p { padding-left: 20px; padding-right: 20px; } }
 
-/* line 19, css/_about.scss */
+/* line 26, css/_about.scss */
 .about a { color: #000; }
 
-/* line 23, css/_about.scss */
+/* line 30, css/_about.scss */
 .about a:hover { color: #C3996B; }
 
-/* line 46, css/_about.scss */
+/* line 34, css/_about.scss */
 .skills li { list-style-type: none; font-size: 16px; line-height: 1.8em; }
 
-/* line 53, css/_about.scss */
+/* line 41, css/_about.scss */
 .skills h2 { text-align: center; padding-top: 50px; }
 
-/* line 58, css/_about.scss */
+/* line 46, css/_about.scss */
 .skills h3 { text-align: center; }
 
-/* line 62, css/_about.scss */
+/* line 50, css/_about.scss */
 .skill { float: left; width: 20%; }
+@media (max-width: 900px) { /* line 50, css/_about.scss */
+  .skill { width: 23%; } }
+@media (max-width: 768px) { /* line 50, css/_about.scss */
+  .skill { width: 46%; } }
+@media (max-width: 500px) { /* line 50, css/_about.scss */
+  .skill { width: 89%; } }
 
-/* line 67, css/_about.scss */
+@media (max-width: 768px) { /* line 67, css/_about.scss */
+  .skill:nth-child(3), .skill:nth-child(4) { margin-top: 30px; } }
+
+/* line 74, css/_about.scss */
 .skill:first-child { margin-left: 8%; }
+@media (max-width: 900px) { /* line 74, css/_about.scss */
+  .skill:first-child { margin-left: 3%; } }
+@media (max-width: 768px) { /* line 74, css/_about.scss */
+  .skill:first-child { margin-left: 0; } }
 
-/* line 71, css/_about.scss */
+/* line 86, css/_about.scss */
 .skill ul { text-align: center; padding-left: 0; }
 
 /* line 1, css/_footer.scss */
@@ -350,15 +406,23 @@ footer h2 { margin-top: 0; padding-top: 150px; text-align: center; margin-bottom
 footer p { margin: 0; }
 
 /* line 17, css/_footer.scss */
-footer svg { height: 50px; width: 50px; stroke: #FFF; fill: #FFF; margin-right: 10%; }
+footer svg { stroke: #FFF; fill: #FFF; margin-right: 10%; }
+@media (max-width: 800px) { /* line 17, css/_footer.scss */
+  footer svg { margin-right: 8%; } }
+@media (max-width: 620px) { /* line 17, css/_footer.scss */
+  footer svg { margin-right: 6%; } }
+@media (max-width: 500px) { /* line 17, css/_footer.scss */
+  footer svg { margin-right: 4%; } }
+@media (max-width: 430px) { /* line 17, css/_footer.scss */
+  footer svg { margin-right: 2%; } }
 
-/* line 26, css/_footer.scss */
-.svg-email { margin-left: 8%; }
+/* line 42, css/_footer.scss */
+.svg-mail { margin-left: 8%; }
 
-/* line 30, css/_footer.scss */
+/* line 46, css/_footer.scss */
 svg:hover { stroke: #C3996B; fill: #C3996B; }
 
-/* line 35, css/_footer.scss */
+/* line 51, css/_footer.scss */
 .comments-footer { background: #E6E3DA; padding-bottom: 0; }
 
 /* line 12, css/style.scss */

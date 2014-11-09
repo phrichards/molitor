@@ -74,8 +74,7 @@
 							<ul>
 								<li>Javascript</li>
 								<li>jQuery</li>
-								<li>Ajax</li>
-								<li>APIs</li>
+								<li>Ajax and APIs</li>
 							</ul>
 						</li>
 						

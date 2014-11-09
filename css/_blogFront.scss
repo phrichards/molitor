@@ -1,7 +1,14 @@
+// style for home.php
+
 .blogFront {
 	background-color: $beige;
 	width: 100%;
 	color: #000;
+
+	@media (max-width: 960px) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 .blogFront a {

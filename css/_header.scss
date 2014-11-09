@@ -33,6 +33,28 @@ header img {
 	margin-left: 1%;
 	margin-top: 145px;
 	margin-bottom: 145px;
+
+	@media (max-width: 940px) {
+		margin-left: 5%;
+	}
+
+	@media (max-width: 768px) {
+		margin-top: 75px;
+		margin-bottom: 65px;
+		margin-left: 11%;
+	}
+
+	@media (max-width: 640px) {
+		margin-top: 55px;
+		margin-bottom: 45px;
+	}
+
+	@media (max-width: 480px) {
+		margin-left: 30%;
+		margin-top: 45px;
+		margin-bottom: 25px;
+
+	}
 }
 
 header nav img {

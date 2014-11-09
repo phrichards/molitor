@@ -1,3 +1,5 @@
+// this is portfolio.php
+
 .portfolio-full {
 	width: 100%;
 	background: $blue;
@@ -12,6 +14,14 @@
 .portfolio-item {
 	width: 33%;
 	float: left;
+
+	@media (max-width: 960px) {
+		width: 50%;
+	}
+
+	@media (max-width: 768px) {
+		width: 100%;
+	}
 }
 
 h3.portfolio-item-title {
@@ -36,4 +46,18 @@ a.portfolio-link:hover {
 	text-align: center;
 	font-size: 0.75em;
 	text-transform: uppercase;
+}
+
+.images {
+	@media (max-width: 768px) {
+		margin-left: 24%;
+	}
+
+	@media (max-width: 640px) {
+		margin-left: 19%;
+	}
+
+	@media (max-width: 480px) {
+		margin-left: 10%;
+	}
 }

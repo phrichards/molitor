@@ -1,5 +1,43 @@
 $(function(){
-	$('nav').scrollToFixed({
+	
+  enquire.register("screen and (max-width:940px)", {
+    match: function(){
+      $('.header-logo').attr('src', 'wp-content/themes/molitor/img/phrichards-small.png');
+    },
+    unmatch: function(){
+      $('.header-logo').attr('src', 'wp-content/themes/molitor/img/phrichards-big.png');
+    }
+  });
+
+  enquire.register("screen and (max-width:768px)", {
+    match: function(){
+      $('.header-logo').attr('src', 'wp-content/themes/molitor/img/phrichards-smaller.png');
+      $('nav').addClass('768-nav');
+    },
+    unmatch: function(){
+      $('.header-logo').attr('src', 'wp-content/themes/molitor/img/phrichards-small.png');
+    }
+  });
+
+  enquire.register("screen and (max-width:640px)", {
+    match: function(){
+      $('.header-logo').attr('src', 'wp-content/themes/molitor/img/phrichards-smallest.png');
+    },
+    umatch: function(){
+      $('.header-logo').attr('src', 'wp-content/themes/molitor/img/phrichards-smaller.png');
+    }
+  });
+
+  enquire.register("screen and (max-width:480px)", {
+    match: function(){
+      $('.header-logo').attr('src', 'wp-content/themes/molitor/img/header-lettermark.png');
+    },
+    unmatch: function(){
+      $('.header-logo').attr('src', 'wp-content/themes/molitor/img/phrichards-smallest.png');
+    }
+  });
+
+  $('nav').scrollToFixed({
 		dontSetWidth: true,
 	});
 

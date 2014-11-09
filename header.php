@@ -19,7 +19,7 @@
         <div class="container clearfix">
             <h1>
                 <a href="<?php echo home_url( '/' ); ?>" rel="home">
-                    <img src="wp-content/themes/molitor/img/phrichards-small.png" alt="">
+                    <img src="wp-content/themes/molitor/img/phrichards-big.png" alt="" class="header-logo">
             </a>
             </h1>
 

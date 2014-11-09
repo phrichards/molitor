@@ -1,3 +1,5 @@
+// on front-page.php
+
 .about {
 	background-color: $beige;
 	color: $blue;
@@ -14,6 +16,11 @@
 
 .about p {
 	margin-bottom: 0;
+
+	@media (max-width: 940px) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 .about a {
@@ -23,25 +30,6 @@
 .about a:hover {
 	color: $gold;
 }
-
-// .about-icon {
-// 	float: left;
-// 	width: 33%;
-// 	padding-bottom: 150px;	
-// 	padding-top: 50px;
-// 	text-align: center;
-// }
-
-
-// .about-icon p {
-// 	font-size: 1em;
-// }
-
-// svg {
-// 	height: 175px;
-// 	width: 175px;
-// 	fill: $blue;
-// }
 
 .skills li {
 	list-style-type: none;
@@ -62,10 +50,37 @@
 .skill {
 	float: left;
 	width: 20%;
+
+	@media (max-width: 900px) {
+		width: 23%;
+	}
+
+	@media (max-width: 768px) {
+		width: 46%;
+	}
+
+	@media (max-width: 500px) {
+		width: 89%;
+	}
+}
+
+.skill:nth-child(3),
+.skill:nth-child(4) {
+	@media (max-width: 768px) {
+		margin-top: 30px;
+	}
 }
 
 .skill:first-child {
 	margin-left: 8%;
+
+	@media (max-width: 900px) {
+		margin-left: 3%;
+	}
+
+	@media (max-width: 768px) {
+		margin-left: 0;
+	}
 }
 
 .skill ul {
