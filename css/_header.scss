@@ -24,13 +24,21 @@ header a {
 	margin-top: 0;
 	font-size: 19px;
 
-	@media (max-width: 320px) {
+	@media (max-width: 375px) {
 		font-size: 15px;
 	}
 }
 
 header a:hover {
 	color: $blue;
+}
+
+header nav li:last-child,
+header nav li:nth-child(2) {
+	@media (max-width: 375px) {
+		margin-right: 10%;
+		// margin-right: 3%;
+	}
 }
 
 header img {
@@ -69,6 +77,10 @@ header nav img {
 	position: absolute;
 	top: 7%;
 	left: 1%;
+
+	@media (max-width: 375px) {
+		top: 15%;
+	}
 }
 
 nav.scroll-to-fixed-fixed {

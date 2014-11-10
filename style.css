@@ -177,32 +177,37 @@ header nav li { text-transform: uppercase; list-style-type: none; float: right; 
 
 /* line 22, css/_header.scss */
 header a { text-decoration: none; margin-top: 0; font-size: 19px; }
-@media (max-width: 320px) { /* line 22, css/_header.scss */
+@media (max-width: 375px) { /* line 22, css/_header.scss */
   header a { font-size: 15px; } }
 
 /* line 32, css/_header.scss */
 header a:hover { color: #2D3246; }
 
-/* line 36, css/_header.scss */
+@media (max-width: 375px) { /* line 36, css/_header.scss */
+  header nav li:last-child, header nav li:nth-child(2) { margin-right: 10%; } }
+
+/* line 44, css/_header.scss */
 header img { margin-left: 1%; margin-top: 145px; margin-bottom: 145px; }
-@media (max-width: 940px) { /* line 36, css/_header.scss */
+@media (max-width: 940px) { /* line 44, css/_header.scss */
   header img { margin-left: 5%; } }
-@media (max-width: 768px) { /* line 36, css/_header.scss */
+@media (max-width: 768px) { /* line 44, css/_header.scss */
   header img { margin-top: 75px; margin-bottom: 65px; margin-left: 11%; } }
-@media (max-width: 640px) { /* line 36, css/_header.scss */
+@media (max-width: 640px) { /* line 44, css/_header.scss */
   header img { margin-top: 55px; margin-bottom: 45px; } }
-@media (max-width: 480px) { /* line 36, css/_header.scss */
+@media (max-width: 480px) { /* line 44, css/_header.scss */
   header img { margin-left: 26%; margin-top: 45px; margin-bottom: 25px; } }
-@media (max-width: 320px) { /* line 36, css/_header.scss */
+@media (max-width: 320px) { /* line 44, css/_header.scss */
   header img { margin-left: 22%; } }
 
-/* line 67, css/_header.scss */
+/* line 75, css/_header.scss */
 header nav img { margin: 0; position: absolute; top: 7%; left: 1%; }
+@media (max-width: 375px) { /* line 75, css/_header.scss */
+  header nav img { top: 15%; } }
 
-/* line 74, css/_header.scss */
+/* line 86, css/_header.scss */
 nav.scroll-to-fixed-fixed { padding: 21px 20px 21px 10px; }
 
-/* line 78, css/_header.scss */
+/* line 90, css/_header.scss */
 a.lettermark { display: none; }
 
 /* line 1, css/_content.scss */
@@ -435,7 +440,7 @@ footer svg { height: 50px; width: 50px; stroke: #FFF; fill: #FFF; margin-right: 
 @media (max-width: 500px) { /* line 21, css/_footer.scss */
   footer svg { margin-right: 4%; } }
 @media (max-width: 480px) { /* line 21, css/_footer.scss */
-  footer svg { width: 22%; float: left; margin-left: 4%; margin-bottom: 45px; } }
+  footer svg { width: 16%; float: left; margin-left: 11%; margin-bottom: 45px; } }
 
 /* line 49, css/_footer.scss */
 .svg-mail { margin-left: 8%; }

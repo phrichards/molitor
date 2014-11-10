@@ -37,9 +37,22 @@ $(function(){
     }
   });
 
+  enquire.register("screen and (max-width:375px)", {
+    match: function(){
+      $('.lettermark').attr('src', 'wp-content/themes/molitor/img/phlettermark-mobile.png');
+    },
+    unmatch: function(){
+      $('.lettermark').attr('src', 'wp-content/themes/molitor/img/phlettermark-small.png');
+    }
+  });
+
   $('nav').scrollToFixed({
 		dontSetWidth: true,
 	});
+
+  if (window.screen.width() <= 768) {
+    $('.lettermark').css('display', 'block');
+  }
 
   var stickyNav = function(){
     $(window).scroll(function() {
