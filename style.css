@@ -177,43 +177,50 @@ header nav li { text-transform: uppercase; list-style-type: none; float: right; 
 
 /* line 22, css/_header.scss */
 header a { text-decoration: none; margin-top: 0; font-size: 19px; }
-
-/* line 28, css/_header.scss */
-header a:hover { color: #2D3246; }
+@media (max-width: 320px) { /* line 22, css/_header.scss */
+  header a { font-size: 15px; } }
 
 /* line 32, css/_header.scss */
-header img { margin-left: 1%; margin-top: 145px; margin-bottom: 145px; }
-@media (max-width: 940px) { /* line 32, css/_header.scss */
-  header img { margin-left: 5%; } }
-@media (max-width: 768px) { /* line 32, css/_header.scss */
-  header img { margin-top: 75px; margin-bottom: 65px; margin-left: 11%; } }
-@media (max-width: 640px) { /* line 32, css/_header.scss */
-  header img { margin-top: 55px; margin-bottom: 45px; } }
-@media (max-width: 480px) { /* line 32, css/_header.scss */
-  header img { margin-left: 30%; margin-top: 45px; margin-bottom: 25px; } }
+header a:hover { color: #2D3246; }
 
-/* line 60, css/_header.scss */
-header nav img { margin: 0; position: absolute; top: 7%; left: 1%; }
+/* line 36, css/_header.scss */
+header img { margin-left: 1%; margin-top: 145px; margin-bottom: 145px; }
+@media (max-width: 940px) { /* line 36, css/_header.scss */
+  header img { margin-left: 5%; } }
+@media (max-width: 768px) { /* line 36, css/_header.scss */
+  header img { margin-top: 75px; margin-bottom: 65px; margin-left: 11%; } }
+@media (max-width: 640px) { /* line 36, css/_header.scss */
+  header img { margin-top: 55px; margin-bottom: 45px; } }
+@media (max-width: 480px) { /* line 36, css/_header.scss */
+  header img { margin-left: 26%; margin-top: 45px; margin-bottom: 25px; } }
+@media (max-width: 320px) { /* line 36, css/_header.scss */
+  header img { margin-left: 22%; } }
 
 /* line 67, css/_header.scss */
+header nav img { margin: 0; position: absolute; top: 7%; left: 1%; }
+
+/* line 74, css/_header.scss */
 nav.scroll-to-fixed-fixed { padding: 21px 20px 21px 10px; }
 
-/* line 71, css/_header.scss */
+/* line 78, css/_header.scss */
 a.lettermark { display: none; }
 
 /* line 1, css/_content.scss */
-.content { width: 100%; }
+body { position: relative; }
 
 /* line 5, css/_content.scss */
+.content { width: 100%; }
+
+/* line 9, css/_content.scss */
 .content-front { background: #2D3246; color: #FFF; }
 
-/* line 10, css/_content.scss */
+/* line 14, css/_content.scss */
 .content-front h2 { text-align: center; margin-top: 0; padding-top: 150px; }
 
-/* line 16, css/_content.scss */
+/* line 20, css/_content.scss */
 .front-button { text-decoration: none; }
 
-/* line 20, css/_content.scss */
+/* line 24, css/_content.scss */
 .front-button:hover { color: #C3996B; }
 
 /* line 3, css/_blogFront.scss */
@@ -255,53 +262,62 @@ h2.entry-title { margin-top: 0; padding-top: 40px; }
 
 /* line 3, css/_portfolioFront.scss */
 .portfolio-front { background-color: #2D3246; position: relative; }
-@media (max-width: 960px) { /* line 3, css/_portfolioFront.scss */
+@media (max-width: 1024px) { /* line 3, css/_portfolioFront.scss */
   .portfolio-front { padding-bottom: 250px; } }
 @media (max-width: 480px) { /* line 3, css/_portfolioFront.scss */
   .portfolio-front { padding-bottom: 175px; } }
 
 /* line 16, css/_portfolioFront.scss */
 .featured section { float: left; width: 33%; }
+@media (max-width: 1024px) { /* line 16, css/_portfolioFront.scss */
+  .featured section { width: 50%; } }
 @media (max-width: 960px) { /* line 16, css/_portfolioFront.scss */
   .featured section { width: 50%; } }
 @media (max-width: 768px) { /* line 16, css/_portfolioFront.scss */
   .featured section { width: 100%; } }
 
-/* line 29, css/_portfolioFront.scss */
+/* line 33, css/_portfolioFront.scss */
 .featured h3 { text-align: center; }
 
-/* line 33, css/_portfolioFront.scss */
+/* line 37, css/_portfolioFront.scss */
 .featured .description { text-align: center; }
-@media (max-width: 480px) { /* line 33, css/_portfolioFront.scss */
+@media (max-width: 480px) { /* line 37, css/_portfolioFront.scss */
   .featured .description { padding-left: 20px; padding-right: 20px; } }
 
-/* line 42, css/_portfolioFront.scss */
+/* line 46, css/_portfolioFront.scss */
 .images { margin-left: 9%; }
 
-/* line 46, css/_portfolioFront.scss */
+/* line 50, css/_portfolioFront.scss */
 a.featuredLink { text-decoration: none; color: #C3996B; }
 
-/* line 51, css/_portfolioFront.scss */
+/* line 55, css/_portfolioFront.scss */
 a.featuredLink:hover { color: #FFF; }
 
-/* line 55, css/_portfolioFront.scss */
+@media (max-width: 480px) { /* line 59, css/_portfolioFront.scss */
+  .featured img { width: 90%; } }
+
+/* line 65, css/_portfolioFront.scss */
 .terms { margin-top: 5%; text-align: center; padding-bottom: 250px; text-transform: uppercase; font-size: 0.75em; }
-@media (max-width: 960px) { /* line 55, css/_portfolioFront.scss */
+@media (max-width: 1024px) { /* line 65, css/_portfolioFront.scss */
   .terms { padding-bottom: 50px; } }
 
-/* line 67, css/_portfolioFront.scss */
+/* line 77, css/_portfolioFront.scss */
 .terms a:hover { color: #C3996B; }
 
-/* line 71, css/_portfolioFront.scss */
+/* line 81, css/_portfolioFront.scss */
 button { padding: 20px 75px; background: #2D3246; border: 1px solid #C3996B; border-radius: 8px; color: #fff; font-size: 17.6px; font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: 2px; position: absolute; bottom: 100px; left: 40%; }
-@media (max-width: 768px) { /* line 71, css/_portfolioFront.scss */
+@media (max-width: 1024px) { /* line 81, css/_portfolioFront.scss */
+  button { left: 37%; } }
+@media (max-width: 768px) { /* line 81, css/_portfolioFront.scss */
   button { left: 32%; } }
-@media (max-width: 640px) { /* line 71, css/_portfolioFront.scss */
+@media (max-width: 640px) { /* line 81, css/_portfolioFront.scss */
   button { left: 29%; } }
-@media (max-width: 480px) { /* line 71, css/_portfolioFront.scss */
-  button { left: 22%; } }
+@media (max-width: 480px) { /* line 81, css/_portfolioFront.scss */
+  button { left: 14%; } }
+@media (max-width: 320px) { /* line 81, css/_portfolioFront.scss */
+  button { left: 8%; } }
 
-/* line 90, css/_portfolioFront.scss */
+/* line 108, css/_portfolioFront.scss */
 button:hover { color: #C3996B; }
 
 /* line 3, css/_portfolioFull.scss */
@@ -312,31 +328,34 @@ button:hover { color: #C3996B; }
 
 /* line 14, css/_portfolioFull.scss */
 .portfolio-item { width: 33%; float: left; }
-@media (max-width: 960px) { /* line 14, css/_portfolioFull.scss */
+@media (max-width: 1024px) { /* line 14, css/_portfolioFull.scss */
   .portfolio-item { width: 50%; } }
 @media (max-width: 768px) { /* line 14, css/_portfolioFull.scss */
   .portfolio-item { width: 100%; } }
 
-/* line 27, css/_portfolioFull.scss */
+@media (max-width: 375px) { /* line 27, css/_portfolioFull.scss */
+  .portfolio-item img { width: 90%; } }
+
+/* line 33, css/_portfolioFull.scss */
 h3.portfolio-item-title { text-align: center; }
 
-/* line 31, css/_portfolioFull.scss */
+/* line 37, css/_portfolioFull.scss */
 a.portfolio-link { text-decoration: none; color: #C3996B; }
 
-/* line 36, css/_portfolioFull.scss */
+/* line 42, css/_portfolioFull.scss */
 a.portfolio-link:hover { color: #FFF; }
 
-/* line 40, css/_portfolioFull.scss */
+/* line 46, css/_portfolioFull.scss */
 .portfolio-description { text-align: center; }
 
-/* line 44, css/_portfolioFull.scss */
+/* line 50, css/_portfolioFull.scss */
 .portfolio-terms { padding-bottom: 70px; text-align: center; font-size: 0.75em; text-transform: uppercase; }
 
-@media (max-width: 768px) { /* line 51, css/_portfolioFull.scss */
+@media (max-width: 768px) { /* line 57, css/_portfolioFull.scss */
   .images { margin-left: 24%; } }
-@media (max-width: 640px) { /* line 51, css/_portfolioFull.scss */
+@media (max-width: 640px) { /* line 57, css/_portfolioFull.scss */
   .images { margin-left: 19%; } }
-@media (max-width: 480px) { /* line 51, css/_portfolioFull.scss */
+@media (max-width: 480px) { /* line 57, css/_portfolioFull.scss */
   .images { margin-left: 10%; } }
 
 /* line 1, css/_technologies.scss */
@@ -398,31 +417,38 @@ a.portfolio-link:hover { color: #FFF; }
 
 /* line 1, css/_footer.scss */
 footer { background-color: #2D3246; padding-bottom: 150px; }
+@media (max-width: 480px) { /* line 1, css/_footer.scss */
+  footer { padding-bottom: 165px; } }
 
-/* line 6, css/_footer.scss */
+/* line 10, css/_footer.scss */
 footer h2 { margin-top: 0; padding-top: 150px; text-align: center; margin-bottom: 100px; }
 
-/* line 13, css/_footer.scss */
+/* line 17, css/_footer.scss */
 footer p { margin: 0; }
 
-/* line 17, css/_footer.scss */
-footer svg { stroke: #FFF; fill: #FFF; margin-right: 10%; }
-@media (max-width: 800px) { /* line 17, css/_footer.scss */
+/* line 21, css/_footer.scss */
+footer svg { height: 50px; width: 50px; stroke: #FFF; fill: #FFF; margin-right: 10%; }
+@media (max-width: 800px) { /* line 21, css/_footer.scss */
   footer svg { margin-right: 8%; } }
-@media (max-width: 620px) { /* line 17, css/_footer.scss */
+@media (max-width: 620px) { /* line 21, css/_footer.scss */
   footer svg { margin-right: 6%; } }
-@media (max-width: 500px) { /* line 17, css/_footer.scss */
+@media (max-width: 500px) { /* line 21, css/_footer.scss */
   footer svg { margin-right: 4%; } }
-@media (max-width: 430px) { /* line 17, css/_footer.scss */
-  footer svg { margin-right: 2%; } }
+@media (max-width: 480px) { /* line 21, css/_footer.scss */
+  footer svg { width: 22%; float: left; margin-left: 4%; margin-bottom: 45px; } }
 
-/* line 42, css/_footer.scss */
+/* line 49, css/_footer.scss */
 .svg-mail { margin-left: 8%; }
+@media (max-width: 480px) { /* line 49, css/_footer.scss */
+  .svg-mail { margin-left: 5%; } }
 
-/* line 46, css/_footer.scss */
+/* line 57, css/_footer.scss */
+.svg-linkedin svg { margin-right: 0; }
+
+/* line 61, css/_footer.scss */
 svg:hover { stroke: #C3996B; fill: #C3996B; }
 
-/* line 51, css/_footer.scss */
+/* line 66, css/_footer.scss */
 .comments-footer { background: #E6E3DA; padding-bottom: 0; }
 
 /* line 12, css/style.scss */

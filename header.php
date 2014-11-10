@@ -24,7 +24,7 @@
             </h1>
 
         </div> <!-- /.container -->
-        <nav>
+        <nav id="nav">
             <a href="http://phrichards.ca"><img src="<?php echo get_template_directory_uri() . '/img/phlettermark-small.png'?>" alt="" class="lettermark"></a>
             <?php wp_nav_menu( array(
             'container' => false,

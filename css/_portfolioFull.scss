@@ -15,12 +15,18 @@
 	width: 33%;
 	float: left;
 
-	@media (max-width: 960px) {
+	@media (max-width: 1024px) {
 		width: 50%;
 	}
 
 	@media (max-width: 768px) {
 		width: 100%;
+	}
+}
+
+.portfolio-item img {
+	@media (max-width: 375px) {
+		width: 90%;
 	}
 }
 

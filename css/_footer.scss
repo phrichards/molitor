@@ -1,6 +1,10 @@
 footer {
 	background-color: $blue;
 	padding-bottom: 150px;
+
+	@media (max-width: 480px) {
+		padding-bottom: 165px;
+	}
 }
 
 footer h2 {
@@ -15,8 +19,8 @@ footer p {
 }
 
 footer svg {
-	// height: 50px;
-	// width: 50px;
+	height: 50px;
+	width: 50px;
 	stroke: #FFF;
 	fill: #FFF;
 	// float: left;
@@ -34,13 +38,24 @@ footer svg {
 		margin-right: 4%;
 	}
 
-	@media (max-width: 430px) {
-		margin-right: 2%;
+	@media (max-width: 480px) {
+		width: 22%;
+		float: left;
+		margin-left: 4%;
+		margin-bottom: 45px;
 	}
 }
 
 .svg-mail {
 	margin-left: 8%;
+
+	@media (max-width: 480px) {
+		margin-left: 5%;
+	}
+}
+
+.svg-linkedin svg {
+	margin-right: 0;
 }
 
 svg:hover {
