@@ -185,31 +185,33 @@ header a:hover { color: #2D3246; }
 
 @media (max-width: 375px) { /* line 36, css/_header.scss */
   header nav li:last-child, header nav li:nth-child(2) { margin-right: 10%; } }
+@media (max-width: 320px) { /* line 36, css/_header.scss */
+  header nav li:last-child, header nav li:nth-child(2) { margin-right: 4%; } }
 
-/* line 44, css/_header.scss */
+/* line 49, css/_header.scss */
 header img { margin-left: 1%; margin-top: 145px; margin-bottom: 145px; }
-@media (max-width: 940px) { /* line 44, css/_header.scss */
+@media (max-width: 940px) { /* line 49, css/_header.scss */
   header img { margin-left: 5%; } }
-@media (max-width: 768px) { /* line 44, css/_header.scss */
+@media (max-width: 768px) { /* line 49, css/_header.scss */
   header img { margin-top: 75px; margin-bottom: 65px; margin-left: 11%; } }
-@media (max-width: 667px) { /* line 44, css/_header.scss */
-  header img { margin-left: 14%; } }
-@media (max-width: 640px) { /* line 44, css/_header.scss */
+@media (max-width: 667px) { /* line 49, css/_header.scss */
+  header img { margin-left: 5%; } }
+@media (max-width: 640px) { /* line 49, css/_header.scss */
   header img { margin-top: 55px; margin-bottom: 45px; } }
-@media (max-width: 480px) { /* line 44, css/_header.scss */
+@media (max-width: 480px) { /* line 49, css/_header.scss */
   header img { margin-left: 26%; margin-top: 45px; margin-bottom: 25px; } }
-@media (max-width: 320px) { /* line 44, css/_header.scss */
+@media (max-width: 320px) { /* line 49, css/_header.scss */
   header img { margin-left: 22%; } }
 
-/* line 79, css/_header.scss */
+/* line 84, css/_header.scss */
 header nav img { margin: 0; position: absolute; top: 7%; left: 1%; }
-@media (max-width: 375px) { /* line 79, css/_header.scss */
+@media (max-width: 375px) { /* line 84, css/_header.scss */
   header nav img { top: 15%; } }
 
-/* line 90, css/_header.scss */
+/* line 95, css/_header.scss */
 nav.scroll-to-fixed-fixed { padding: 21px 20px 21px 10px; }
 
-/* line 94, css/_header.scss */
+/* line 99, css/_header.scss */
 a.lettermark { display: none; }
 
 /* line 1, css/_content.scss */

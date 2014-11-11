@@ -39,6 +39,11 @@ header nav li:nth-child(2) {
 		margin-right: 10%;
 		// margin-right: 3%;
 	}
+
+	@media (max-width: 320px) {
+		margin-right: 4%;
+		// margin-right: 3%;
+	}
 }
 
 header img {
@@ -57,7 +62,7 @@ header img {
 	}
 
 	@media (max-width: 667px) {
-		margin-left: 14%;
+		margin-left: 5%;
 	}
 
 	@media (max-width: 640px) {
