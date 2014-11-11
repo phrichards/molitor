@@ -1,3 +1,5 @@
+<!-- this is the full portfolio page -->
+
 <?php 
 /* 
 Template Name: Portfolio
@@ -31,9 +33,9 @@ Template Name: Portfolio
                   <div class="images">
                     <?php while( has_sub_field('images') ): ?>
                       <div class="image">
-                        <p><?php the_sub_field('caption'); ?></p>
-                        <?php $image = get_sub_field('image'); ?>
-                        <img src="<?php echo $image['sizes']['large'] ?>">
+                        <a href=<?php the_field('live-url');?> class="portfolio-img-link"><p><?php the_sub_field('caption'); ?></p>
+                          <?php $image = get_sub_field('image'); ?>
+                          <img src="<?php echo $image['sizes']['large'] ?>"></a>
                       </div>
                     <?php endwhile; ?>
                   </div><!-- /.images -->

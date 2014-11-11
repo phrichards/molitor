@@ -58,7 +58,7 @@ $(function(){
     $(window).scroll(function() {
       if ($(window).scrollTop() > 650) {
         $('.lettermark').fadeIn();
-      } else {
+      } else {$$
         $('.lettermark').fadeOut();
       }
     });
@@ -69,5 +69,6 @@ $(function(){
   } else {
     stickyNav();
   }
+
 
 });
