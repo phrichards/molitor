@@ -369,6 +369,15 @@ a.portfolio-link:hover { color: #FFF; }
 @media (max-width: 480px) { /* line 57, css/_portfolioFull.scss */
   .images { margin-left: 10%; } }
 
+/* line 75, css/_portfolioFull.scss */
+.image { position: relative; }
+
+/* line 83, css/_portfolioFull.scss */
+.overlay { display: none; width: 93%; height: 98%; position: absolute; background-color: #000; opacity: 0.7; }
+
+/* line 92, css/_portfolioFull.scss */
+.overlay h3, .overlay p { display: none; }
+
 /* line 1, css/_technologies.scss */
 .technology-term { background: #E6E3DA; color: #2D3246; }
 

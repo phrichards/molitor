@@ -70,5 +70,4 @@ $(function(){
     stickyNav();
   }
 
-
 });

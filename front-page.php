@@ -29,7 +29,7 @@
 									<div class="image">
 										<p><?php the_sub_field('caption'); ?></p>
 										<?php $image = get_sub_field('image'); ?>
-										<img src="<?php echo $image['sizes']['large'] ?>">
+										<a href=<?php the_field('live-url'); ?> class="featuredLink" target="_blank"><img src="<?php echo $image['sizes']['large'] ?>"></a>
 									</div>
 								<?php endwhile; ?>
 							</div><!-- /.images -->

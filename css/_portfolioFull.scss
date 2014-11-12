@@ -71,3 +71,42 @@ a.portfolio-link:hover {
 		margin-left: 10%;
 	}
 }
+
+.image {
+	position: relative;
+}
+
+// .svg-imgoverlay {
+// 	position: absolute;
+// }
+
+.overlay {
+	display: none;
+    width: 93%;
+    height: 98%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+.overlay h3,
+.overlay p {
+	display: none;
+}
+
+// .image:hover > .overlay h3 {
+// 	display: block;
+// 	position: absolute;
+// 	top: 10%;
+// 	width: 100%;
+// 	text-align: center;
+// }
+
+// .image:hover > .overlay p {
+// 	display: block;
+// 	position: absolute;
+// 	top: 60%;
+// 	text-align: center;
+// 	width: 100%;
+// }
+

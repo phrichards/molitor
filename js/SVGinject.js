@@ -33,6 +33,14 @@ SVGgithub[i].innerHTML = '<?xml version="1.0" encoding="iso-8859-1"?> <!DOCTYPE 
 }
 
 
+// SVG imgoverlay
+var SVGimgoverlay = document.querySelectorAll('.svg-imgoverlay');
+
+for (i = 0; i < SVGimgoverlay.length; ++i) {
+SVGimgoverlay[i].innerHTML = '<?xml version="1.0" encoding="UTF-8" standalone="no"?> <svg width="405px" height="300px" viewBox="0 0 405 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">     <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->     <title>Group</title>     <desc>Created with Sketch.</desc>     <defs>         <path id="path-1" d="M0.5,225.5 L265.5,225.5"></path>     </defs>     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">         <g id="Group" sketch:type="MSLayerGroup" stroke="#000000">             <rect id="Rectangle-1" fill-opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" x="1" y="0" width="403" height="300"></rect>             <rect id="Rectangle-2" fill-opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" x="2" y="157" width="265" height="142"></rect>             <rect id="Rectangle-3" fill-opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" x="266" y="157" width="139" height="142"></rect>             <g id="Line" stroke-linecap="square">                 <use sketch:type="MSShapeGroup" xlink:href="#path-1"></use>                 <use xlink:href="#path-1"></use>             </g>         </g>     </g> </svg>';
+}
+
+
 // SVG instagram
 var SVGinstagram = document.querySelectorAll('.svg-instagram');
 
