@@ -192,7 +192,7 @@ header a:hover { color: #2D3246; }
 header img { margin-left: 1%; margin-top: 145px; margin-bottom: 145px; }
 @media (max-width: 940px) { /* line 49, css/_header.scss */
   header img { margin-left: 5%; } }
-@media (max-width: 768px) { /* line 49, css/_header.scss */
+@media (max-width: 800px) { /* line 49, css/_header.scss */
   header img { margin-top: 75px; margin-bottom: 65px; margin-left: 11%; } }
 @media (max-width: 667px) { /* line 49, css/_header.scss */
   header img { margin-left: 5%; } }
@@ -282,7 +282,7 @@ h2.entry-title { margin-top: 0; padding-top: 40px; }
   .featured section { width: 50%; } }
 @media (max-width: 960px) { /* line 16, css/_portfolioFront.scss */
   .featured section { width: 50%; } }
-@media (max-width: 768px) { /* line 16, css/_portfolioFront.scss */
+@media (max-width: 870px) { /* line 16, css/_portfolioFront.scss */
   .featured section { width: 100%; } }
 
 /* line 33, css/_portfolioFront.scss */
@@ -295,38 +295,40 @@ h2.entry-title { margin-top: 0; padding-top: 40px; }
 
 /* line 46, css/_portfolioFront.scss */
 .images { margin-left: 9%; }
+@media (max-width: 862px) { /* line 46, css/_portfolioFront.scss */
+  .images { margin-left: 26%; } }
 
-/* line 51, css/_portfolioFront.scss */
+/* line 55, css/_portfolioFront.scss */
 a.featuredLink { text-decoration: none; color: #C3996B; }
 
-/* line 56, css/_portfolioFront.scss */
+/* line 60, css/_portfolioFront.scss */
 a.featuredLink:hover { color: #FFF; }
 
-@media (max-width: 480px) { /* line 60, css/_portfolioFront.scss */
+@media (max-width: 480px) { /* line 64, css/_portfolioFront.scss */
   .featured img { width: 90%; } }
 
-/* line 66, css/_portfolioFront.scss */
+/* line 70, css/_portfolioFront.scss */
 .terms { margin-top: 5%; text-align: center; padding-bottom: 250px; text-transform: uppercase; font-size: 0.75em; }
-@media (max-width: 1024px) { /* line 66, css/_portfolioFront.scss */
+@media (max-width: 1024px) { /* line 70, css/_portfolioFront.scss */
   .terms { padding-bottom: 50px; } }
 
-/* line 78, css/_portfolioFront.scss */
+/* line 82, css/_portfolioFront.scss */
 .terms a:hover { color: #C3996B; }
 
-/* line 82, css/_portfolioFront.scss */
+/* line 86, css/_portfolioFront.scss */
 button { padding: 20px 75px; background: #2D3246; border: 1px solid #C3996B; border-radius: 8px; color: #fff; font-size: 17.6px; font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; letter-spacing: 2px; position: absolute; bottom: 100px; left: 40%; }
-@media (max-width: 1024px) { /* line 82, css/_portfolioFront.scss */
+@media (max-width: 1024px) { /* line 86, css/_portfolioFront.scss */
   button { left: 37%; } }
-@media (max-width: 768px) { /* line 82, css/_portfolioFront.scss */
+@media (max-width: 768px) { /* line 86, css/_portfolioFront.scss */
   button { left: 32%; } }
-@media (max-width: 640px) { /* line 82, css/_portfolioFront.scss */
+@media (max-width: 640px) { /* line 86, css/_portfolioFront.scss */
   button { left: 29%; } }
-@media (max-width: 480px) { /* line 82, css/_portfolioFront.scss */
+@media (max-width: 480px) { /* line 86, css/_portfolioFront.scss */
   button { left: 14%; } }
-@media (max-width: 320px) { /* line 82, css/_portfolioFront.scss */
+@media (max-width: 320px) { /* line 86, css/_portfolioFront.scss */
   button { left: 8%; } }
 
-/* line 109, css/_portfolioFront.scss */
+/* line 113, css/_portfolioFront.scss */
 button:hover { color: #C3996B; }
 
 /* line 3, css/_portfolioFull.scss */

@@ -9,7 +9,7 @@ $(function(){
     }
   });
 
-  enquire.register("screen and (max-width:768px)", {
+  enquire.register("screen and (max-width:800px)", {
     match: function(){
       $('.header-logo').attr('src', 'wp-content/themes/molitor/img/phrichards-smaller.png');
       $('nav').addClass('768-nav');
